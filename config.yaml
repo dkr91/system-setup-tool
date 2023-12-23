@@ -1,3 +1,13 @@
+wsl:
+  shell: bash #defualt commandline
+  distro: AlmaLinux 9 #Leaving this out defaults to Ubuntu:Latest
+  username: jacky
+  password: password
+  packages:
+    - micro
+  config:
+    - micro.sh
+
 winget:
   - ajeetdsouza.zoxide
   - SomePythonThings.WingetUIStore
@@ -28,6 +38,7 @@ winget:
   - zyedidia.micro
   - gerardog.gsudo
   - Git.Git
+  - GitHub.cli
   - Discord.Discord
   - CrystalDewWorld.CrystalDiskMark
   - CPUID.CPU-Z
@@ -37,4 +48,3 @@ winget:
 vscode:
   - eamodio.gitlens
   - redhat.vscode-yaml
-  
