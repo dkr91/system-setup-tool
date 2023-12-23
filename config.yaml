@@ -1,0 +1,40 @@
+winget:
+  - ajeetdsouza.zoxide
+  - SomePythonThings.WingetUIStore
+  - Microsoft.WindowsTerminal
+  - CodeSector.TeraCopy
+  - QL-Win.QuickLook
+  - Microsoft.PowerToys.PowerRenameContextMenu\u2026
+  - Microsoft.PowerToys.ImageResizerContextMen\u2026
+  - Microsoft.PowerToys
+  - Microsoft.PowerShell
+  - MilosParipovic.OneCommander
+  - JanDeDobbeleer.OhMyPosh
+  - M2Team.NanaZip
+  - Microsoft.VisualStudioCode
+  - Microsoft.VCRedist.2015+.x64
+  - Microsoft.VCRedist.2015+.x86
+  - Microsoft.VCRedist.2013.x86
+  - Microsoft.VCRedist.2013.x86
+  - Microsoft.VCRedist.2013.x86
+  - Microsoft.VCRedist.2012.x86
+  - Microsoft.VCRedist.2012.x64
+  - Microsoft.VCRedist.2010.x86
+  - Microsoft.VCRedist.2010.x64
+  - Microsoft.VCRedist.2008.x64
+  - Microsoft.VCRedist.2008.x86
+  - Microsoft.DotNet.Runtime.6
+  - Microsoft.DotNet.Runtime.3_1
+  - zyedidia.micro
+  - gerardog.gsudo
+  - Git.Git
+  - Discord.Discord
+  - CrystalDewWorld.CrystalDiskMark
+  - CPUID.CPU-Z
+  - ScooterSoftware.BeyondCompare4
+  - Microsoft.AppInstaller
+
+vscode:
+  - eamodio.gitlens
+  - redhat.vscode-yaml
+  
