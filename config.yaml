@@ -1,3 +1,6 @@
+node:
+  - microsoft/inshellisense
+
 wsl:
   shell: bash #defualt commandline
   distro: AlmaLinux 9 #Leaving this out defaults to Ubuntu:Latest
@@ -44,6 +47,7 @@ winget:
   - CPUID.CPU-Z
   - ScooterSoftware.BeyondCompare4
   - Microsoft.AppInstaller
+  - OpenJS.NodeJS
 
 vscode:
   - eamodio.gitlens
