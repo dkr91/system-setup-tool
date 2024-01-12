@@ -40,3 +40,9 @@ source ~/Repos/znap/znap.zsh  # Start Znap
 # Add autocomplete
 znap source marlonrichert/zsh-autocomplete
 
+
+# install eza
+gh release download --repo github.com/eza-community/eza --pattern '*gnu.zip'
+rm eza.exe_x86_64-pc-windows-gnu.zip eza_aarch64-unknown-linux-gnu.zip
+unzip eza_x86_64-unknown-linux-gnu.zip
+sudo mv ./eza /usr/bin
