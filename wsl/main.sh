@@ -1,5 +1,4 @@
-import yaml
-f = open ('../config.yaml')
-yaml_file = yaml-safe_load(f)
+sudo yum install zsh -y
+zsh
 
-
+sudo yum install git -y
