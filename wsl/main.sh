@@ -1,7 +1,7 @@
 sudo yum install zsh -y
 zsh
 
-sudo yum install -y git mc
+sudo yum install -y git mc fzf
 
 mkdir ~/Repos/
 
