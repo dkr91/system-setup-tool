@@ -1,4 +1,6 @@
 sudo yum install zsh -y
 zsh
 
-sudo yum install git -y
+
+cd /usr/bin
+curl https://getmic.ro | bash
