@@ -15,6 +15,13 @@ This tool automatically installes and configures Systemtools for Windows and WSL
 
 ## wsl
 
+The default shell is set to ***zsh***
+
+Installed tools
+
+
+
+
 ### Options
 
 | Name   | Descriptions              | Examples            | Default |

@@ -14,11 +14,10 @@ rm -rf ~/.fzf
 
 #Installs OhMyZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#Installs zsh-autosuggestions plugin
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 #Grabs the zsh-autosuggestions and adds it in .zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
+# install micro
 cd /usr/bin
 curl https://getmic.ro | bash
 
@@ -26,6 +25,8 @@ curl https://getmic.ro | bash
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
 omz theme 
+
+
 
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | zsh
 eval "$(zoxide init zsh)"
