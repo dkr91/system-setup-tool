@@ -21,9 +21,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 cd /usr/bin
 curl https://getmic.ro | bash
 
-
-curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
-
 omz theme 
 
 
@@ -36,11 +33,6 @@ eval "$(zoxide init zsh)"
     git clone --depth 1 -- \
         https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap
 source ~/Repos/znap/znap.zsh  # Start Znap
-
-
-# Add autocomplete
-znap source marlonrichert/zsh-autocomplete
-
 
 # Install github cli
 curl -Sl -all https://github.com/cli/cli/releases/download/v2.42.0/gh_2.42.0_linux_amd64.tar.gz | rpm --install gh_2.42.0_linux_amd64.tar.gz
