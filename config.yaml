@@ -8,8 +8,26 @@ wsl:
   password: password
   packages:
     - micro
+    - fzf
+    - oh-my-zsh
   config:
     - micro.sh
+
+oh-my-zsh: 
+  plugins:
+    aliases
+    command-not-found 
+    fd
+    fzf
+    git
+    helm 
+    oc
+    vscode
+    yum
+    z
+    zoxide
+    zsh-autocomplete
+    zsh-eza
 
 winget:
   - ajeetdsouza.zoxide
