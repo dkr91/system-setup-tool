@@ -1,0 +1,20 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Alt-a": "CursorLeft",
+    "Alt-b": "WordLeft",
+    "Alt-d": "CursorRight",
+    "Alt-f": "WordRight",
+    "Alt-j": "StartOfLine",
+    "Alt-k": "EndOfLine",
+    "Alt-n": "CursorPageDown",
+    "Alt-p": "CursorPageUp",
+    "Alt-s": "CursorDown",
+    "Alt-w": "CursorUp",
+    "AltShiftA": "SelectLeft",
+    "AltShiftD": "SelectRight",
+    "AltShiftK": "DeleteLine",
+    "AltShiftS": "SelectDown",
+    "AltShiftW": "SelectUp",
+    "CtrlUnderscore": "lua:comment.comment",
+    "Tab": "Autocomplete|IndentSelection|InsertTab"
+}
