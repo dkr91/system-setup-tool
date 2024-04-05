@@ -28,16 +28,6 @@ omz theme
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | zsh
 eval "$(zoxide init zsh)"
 
-# Download Znap, if it's not there yet.
-[[ -r ~/Repos/znap/znap.zsh ]] ||
-    git clone --depth 1 -- \
-        https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap
-source ~/Repos/znap/znap.zsh  # Start Znap
-
-# Install github cli
-curl -Sl -all https://github.com/cli/cli/releases/download/v2.42.0/gh_2.42.0_linux_amd64.tar.gz | rpm --install gh_2.42.0_linux_amd64.tar.gz
-
-
 # install eza
 gh release download --repo github.com/eza-community/eza --pattern '*gnu.zip'
 rm eza.exe_x86_64-pc-windows-gnu.zip eza_aarch64-unknown-linux-gnu.zip
