@@ -1,7 +1,7 @@
 sudo yum install zsh -y
 zsh
 
-sudo yum install -y git mc fzf
+sudo yum install -y git fzf
 sudo dnf install 'dnf-command(config-manager)'
 sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
 sudo dnf install gh
@@ -40,3 +40,5 @@ sudo mv ./eza /usr/bin
 
 # install bat
 yum install bat
+
+# install yazi, lazydocker, lazygit
